@@ -90,6 +90,7 @@ typedef void (^FBKVONotificationBlock)(id _Nullable observer, id object, NSDicti
 - (instancetype)initWithObserver:(nullable id)observer;
 
 /**
+<<<<<<< HEAD
  @abstract Initializes a new instance.
 
  @warning This method is unavaialble. Please use `initWithObserver:` instead.
@@ -108,6 +109,8 @@ typedef void (^FBKVONotificationBlock)(id _Nullable observer, id object, NSDicti
 ///--------------------------------------
 
 /**
+=======
+>>>>>>> Make observer property on FBKVOController nonatomic.
  The observer notified on key-value change. Specified on initialization.
  */
 @property (nullable, nonatomic, weak, readonly) id observer;
